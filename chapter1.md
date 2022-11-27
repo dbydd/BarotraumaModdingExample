@@ -4,7 +4,7 @@
 
 ---
 
-### 下载 [VSCode](https://markdown.com.cn)
+### 下载 [VSCode](https://code.visualstudio.com/)
 
 - VSCode 是由微软开发的代码编辑器，可以理解为“多功能记事本”。
 
