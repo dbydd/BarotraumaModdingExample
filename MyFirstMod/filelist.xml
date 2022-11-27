@@ -1,0 +1,17 @@
+<!--这一行指明了当前xml文件所使用的xml语言的版本，以及文件所使用的编码。必须存在，内容无需更改。-->
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    此标签定义了模组的一系列内容
+    name：玩家在游戏中看到的内容包的名称。
+    modversion：模组的版本号。通常随着模组的更新而递增。
+    gameversion：表示此模组基于什么版本的游戏开发。游戏可以使用它来检测需要修改以向后兼容的模组。
+    corepackage：内容包是否为“核心”包，在单独的部分中描述。
+    此标签内可以用的子标签已列举在下方，这些标签对应了在游戏中各种 对象 的类型。比如物品，生物等。
+-->
+<contentpackage name="my_first_mod" modversion="1.3.1" corepackage="False" steamworkshopid="2865579023" gameversion="0.19.10.0" expectedhash="3601641CD5A8262D2CA935705F3D1597">
+    <!--
+        举例：此标签指向了
+    -->
+    <Item file="%ModDir%/Items/creatureloot.xml" />
+</contentpackage>
